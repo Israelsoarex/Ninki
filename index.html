@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Lista de presença</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://apis.google.com/js/api.js"></script>
+
+</head>
+<body>
+    <span class="shurikenLoad"><img src="icon.svg" alt="" id="icon">
+    <p>Enviando...</p></span>
+    <div class="envioScreen1"><div><img src="img/ninjaright.svg" alt=""><p style="color:#97CB42">Enviado com sucesso!</p></div></div>
+    <div class="envioScreen2"><div><img src="img/ninjawrong.svg" alt=""><p style="color:#B71C1C">Email já enviado previamente...<br>
+    Espere a próxima aula !</p></div></div>
+    <header>
+        <div><h1>CURSO NINKI</h1></div>
+        <nav>
+            <div id="hamburger">≡
+            <div id="nav">
+                   <a href="http://cursoninki.com.br/matriculas-abertas-novo/">Matrícula</a><a href="http://cursoninki.com.br/">Ninki</a>
+            </div></div>
+        </nav>        
+    </header>
+    <main>
+        <section class="presenca">
+            <p>Preencha a <span style="color:#97CB42">lista de chamada</span>* da última aula e concorra a prêmios exclusivos!</p>
+        </section>
+        <section>
+            <form>
+                <div>
+                    <label for="nome">Seu nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                </div>
+                <div>
+                    <label for="email">Seu e-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="button">
+                    <button type="submit">Confirmar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-up"><span style="font-weight:600; margin: 1rem 0 .5rem 0;">NÃO PERCA!</span>
+        <h2>FALTAM APENAS </h2>
+        <div class="time-div">
+            <div class="time"><span id="dia">04</span><span class="time-txt" style="color: #97CB42">DIAS</span></div>
+            <div class="time"><span id="hora">23</span><span class="time-txt">HRS</span></div><div class="ponto">:</div>
+            <div class="time"><span id="minuto">59</span><span class="time-txt">MIN</span></div><div class="ponto">:</div>
+            <div class="time"><span id="segundo">08</span><span class="time-txt">SEG</span></div>
+        </div>
+        <span style="margin: .4rem; font-weight: 600;
+    color: #1F8593;">PARA PRÓXIMA</span>
+        <h2>AULA <span style="color: #FD4E49;">AO VIVO</span></h2></div>
+        <div id="info">
+            <img src="icon.svg" alt="" id="icon">
+            <p>© Curso Ninki (2023)<br> Todos os direitos reservados.</p>
+            <div class="redes">
+                <a href="https://www.facebook.com/cursoninki"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.youtube.com/channel/UC2vcieabeqHoqUHnHUuZkxw"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.instagram.com/cursoninki/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
